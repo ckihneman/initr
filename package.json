@@ -1,20 +1,35 @@
 {
-  "name": "jquery-plugin",
-  "version": "0.0.0-ignored",
-  "engines": {
-    "node": ">= 0.8.0"
+  "name": "initr",
+  "title": "Initr",
+  "description": "A JavaScript dependency loader and initializer.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/ckihneman/initr",
+  "author": {
+    "name": "Chris Kihneman",
+    "email": "ckihneman@gmail.com",
+    "url": "http://ckihneman.github.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ckihneman/initr.git"
+  },
+  "bugs": "https://github.com/ckihneman/initr/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ckihneman/initr/blob/master/LICENSE-MIT"
+    }
+  ],
   "scripts": {
-    "test": "grunt qunit"
+    "build": "grunt"
   },
   "devDependencies": {
-    "grunt-contrib-jshint": "~0.1.1",
-    "grunt-contrib-qunit": "~0.1.1",
-    "grunt-contrib-concat": "~0.1.2",
-    "grunt-contrib-uglify": "~0.1.1",
-    "grunt-contrib-watch": "~0.2.0",
-    "grunt-contrib-clean": "~0.4.0",
     "grunt": "~0.4.1",
-    "grunt-contrib-connect": "~0.3.0"
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-concat": "~0.1.2",
+    "grunt-contrib-connect": "~0.3.0",
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-uglify": "~0.1.1",
+    "grunt-contrib-watch": "~0.2.0"
   }
 }
